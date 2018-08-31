@@ -1,16 +1,14 @@
-# CapsLock Mac Version
+# CapsLock Mac Version Customed
 
-* CapsLock Enhancement (mac) is based on Project [`Karabiner-Elements`](https://pqrs.org/osx/karabiner/)
+- CapsLock Enhancement (mac) is based on Project [`Karabiner-Elements`](https://pqrs.org/osx/karabiner/)
 
-* Current release of karabiner works on following macOS:
+- Current release of karabiner works on following macOS:
 
-  * macOS High Sierra (10.13)
-  * macOS Sierra (10.12)
-  * macOS EI Capitan (10.11)
+  - macOS High Sierra (10.13)
+  - macOS Sierra (10.12)
+  - macOS EI Capitan (10.11)
 
-* For older OS X user, refers to [old](../mac-old) `karabiner` XML-Format configuration script.
-
-
+- For older OS X user, refers to [old](../mac-old) `karabiner` XML-Format configuration script.
 
 ## Install (mac)
 
@@ -31,26 +29,19 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 4. Default conf file path is `$HOME/.config/karabiner/assets/complex_modifications`. Modify it if you like.
 5. Enable functions: `[App] karabiner-elements -> [Tab] Complex Modification -> Add Item`
 
-
-
 #### Notice
 
 - Asset directory: `$HOME/.config/karabiner/assets/complex_modifications`
 
+* Main conf file path: `$HOME/.config/karabiner/karabiner.json`
 
-- Main conf file path: `$HOME/.config/karabiner/karabiner.json`
+* If you are using RMBP with Bar, consider changing your bar back to function keys with
 
-- If you are using RMBP with Bar, consider changing your bar back to function keys with 
+  `Karabiner -> Function Keys -> Use all F1, F2, etc. keys as standard function keys`
 
-  `Karabiner -> Function Keys -> Use all F1, F2, etc. keys as standard function keys  `
+<!-- ## Usage (mac) -->
 
-
-
-
-
-## Usage (mac)
-
-![](../images/keyboard.png)
+<!-- ![](../images/keyboard.png) -->
 
 ### Basic
 
@@ -59,15 +50,15 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | Origin    | Maps to    | Comment                    |
 | --------- | ---------- | -------------------------- |
 | `⇪` Press | `⎋` Escape | Single press to escape     |
-| `⇪` Hold  | `✱`  Hyper | Enable Hyper Functionality |
+| `⇪` Hold  | `✱` Hyper  | Enable Hyper Functionality |
 
 ### Navigation
 
-- Hold  `✱` Hyper to enable navigators
+- Hold `✱` Hyper to enable navigators
 - Hold additional `⌘` Command for **selection** . (just like holding ⇧shift in normal)
-- Hold additional `⌥`  with `HJKL`  for **mouse movement**
+- Hold additional `⌥` with `HJKL` for **mouse movement**
 - Hold additional `⇧` with `HJKL` for **switching tab/app**
-- Hold additional `⌃`  with `HJKL`  for **desktop management** . (just like holding ⌃ctrl with arrow key)
+- Hold additional `⌃` with `HJKL` for **desktop management** . (just like holding ⌃ctrl with arrow key)
 
 | Origin | Maps to         | Comment                    |
 | ------ | --------------- | -------------------------- |
@@ -77,7 +68,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `L`    | `→` RightArrow  | cursor right               |
 | `U`    | `⇞` PageUp      | cursor page up             |
 | `I`    | `↖` Home        | cursor to line(doc) head   |
-| `O`    | `↘`  End        | cursor to line(doc) end    |
+| `O`    | `↘` End         | cursor to line(doc) end    |
 | `P`    | `⇟` PageDn      | cursor page down           |
 | `⌘H`   | `⇧←` LeftArrow  | cursor left and selection  |
 | `⌘J`   | `⇧↓` DownArrow  | cursor down and selection  |
@@ -92,12 +83,10 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `⌃K`   | `↑` UpArrow     | switch prev desktop        |
 | `⌃L`   | `→` RightArrow  | switch next desktop        |
 
-
-
 ### Mousekey
 
 - Emulate mouse with keyboard
-- Also can be archived by `⌥`  with `HJKL`
+- Also can be archived by `⌥` with `HJKL`
 
 | Origin | Maps to    | Comment                  |
 | ------ | ---------- | ------------------------ |
@@ -112,7 +101,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 | Origin    | Maps to                            | Comment             |
 | --------- | ---------------------------------- | ------------------- |
-| `N`       | `⌥⌫`  Option + ForwardDelete       | Delete a word ahead |
+| `N`       | `⌥⌫` Option + ForwardDelete        | Delete a word ahead |
 | `M`       | `⌫` ForwardDelete                  | Delete a char ahead |
 | `,`       | `⌦` Delete                         | Delete a char after |
 | `.`       | `⌥⌦` Option + Delete               | Delete a word after |
@@ -120,17 +109,17 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 ### Window Control
 
-| Origin           | Maps to                 | Comment                                                      |
-| ---------------- | ----------------------- | ------------------------------------------------------------ |
-| `⇥` Tab          | `⌘⇥` Command+Tab        | Switch Window                                                |
-| `⌘⇥` Command+Tab | `⌘⇧⇥` Command+Shift+Tab | Switch Window Reversely                                      |
-| `Q`              | `⌘Q`                    | Close Window                                                 |
-| `W`              | `⌘W`                    | Close Tab                                                    |
+| Origin           | Maps to                 | Comment                                                              |
+| ---------------- | ----------------------- | -------------------------------------------------------------------- |
+| `⇥` Tab          | `⌘⇥` Command+Tab        | Switch Window                                                        |
+| `⌘⇥` Command+Tab | `⌘⇧⇥` Command+Shift+Tab | Switch Window Reversely                                              |
+| `Q`              | `⌘Q`                    | Close Window                                                         |
+| `W`              | `⌘W`                    | Close Tab                                                            |
 | `A`              | `⌃⌥⇧⌘A`                 | Leaves to [Moom](https://manytricks.com/moom/), ※a window resize app |
-| `⌘A`             | `⌃↑`  Ctrl+UpArrow      | OSX Expose All                                               |
-| `S`              | `⌃⇥`  Ctrl+Tab          | Switch Tab                                                   |
-| `⌘S`             | `⌃⇧⇥` Ctrl+Shift+Tab    | Swtich Tab Reversely                                         |
-| `⌘D`             | `F11`                   | Show Desktop                                                 |
+| `⌘A`             | `⌃↑` Ctrl+UpArrow       | OSX Expose All                                                       |
+| `S`              | `⌃⇥` Ctrl+Tab           | Switch Tab                                                           |
+| `⌘S`             | `⌃⇧⇥` Ctrl+Shift+Tab    | Swtich Tab Reversely                                                 |
+| `⌘D`             | `F11`                   | Show Desktop                                                         |
 
 ### Bash Control
 
@@ -155,22 +144,23 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `⌘E`   | Open Finder             | Open File Browser                               |
 | `R`    | Open iTerm2             | Great terminal for osx (`Run`)                  |
 | `⌘R`   | Open Preview            | Switch to opened picture, pdf, etc...           |
-| `T`    | Open Visual Studio Code | Text Editor: Visual Studio Code                 |
-| `⌘T`   | Open Typora             | Text Editor: Typora , a great WYSIWYG md editor |
+| `T`    | Open Typora             | Text Editor: Typora , a great WYSIWYG md editor |
+| `⌘T`   | Open iTunes             | iTunes                                          |
 | `⌘D`   | Open Dictionary         | Find words                                      |
 | `⌘F`   | Open Dash               | Find API Document                               |
 | `F`    | Open Alfred             | Leaves to `⌃⌥⇧⌘F`                               |
 | `⌘D`   | Open Dictionary         | Find words                                      |
-| `G`    | Open Intellij IDEA      | Open IDE                                        |
-| `⌘G`   | Open Chrome             | Google Chrome                                   |
+| `C`    | Open Visual Studio Code | Text Editor: Visual Studio Code                 |
+| `⌘C`   | Open Calendar           | Calendar                                        |
+| `G`    | Open Chrome             | Google Chrome                                   |
 
 ### Functional
 
 - Use F1,…F12 as standard functional keys, while hold hyper to turn them back.
 
-- If you are using RMBP with Bar, consider changing your bar back to function keys with 
+- If you are using RMBP with Bar, consider changing your bar back to function keys with
 
-  `Karabiner -> Function Keys -> Use all F1, F2, etc. keys as standard function keys  `
+  `Karabiner -> Function Keys -> Use all F1, F2, etc. keys as standard function keys`
 
 | Origin            | Maps to              | Comment                          |
 | ----------------- | -------------------- | -------------------------------- |
@@ -199,37 +189,37 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 ### Shifter
 
 - A more convient shift for most case
-- Semicolon`;` and Quote  `'` have some special treatment, makes input `!=` and `:=`  easier
+- Semicolon`;` and Quote `'` have some special treatment, makes input `!=` and `:=` easier
 
-| Origin             | Maps to | Comment                  |
-| ------------------ | ------- | ------------------------ |
-| `1`                | `!`     | Exclamation              |
-| `2`                | `@`     | At                       |
-| `3`                | `#`     | Sharp                    |
-| `4`                | `$`     | Dollar                   |
-| `5`                | `%`     | Percent                  |
-| `6`                | `^`     | Caret                    |
-| `7`                | `&`     | Ampersand                |
-| `8`                | `*`     | Star                     |
-| `9`                | `(`     | Left Round Bracket       |
-| `0`                | `)`     | Right Round Bracket      |
-| `-` Minus          | `_`     | Hyphen                   |
-| `=` Equal          | `+`     | Plus                     |
-| `[` Left Bracket   | `(`     | Left Round Bracket `⇧9`  |
-| `]`  Right Bracket | `)`     | Right Round Bracket `⇧0` |
-| `;` Semicolon      | `!`     | Exclamation              |
-| `'` Single Quote   | `=`     | EqualSign                |
-| `⌘;` Semicolon     | `!`     | Colon                    |
-| `⌘'` Single Quote  | `=`     | EqualSign                |
+| Origin            | Maps to | Comment                  |
+| ----------------- | ------- | ------------------------ |
+| `1`               | `!`     | Exclamation              |
+| `2`               | `@`     | At                       |
+| `3`               | `#`     | Sharp                    |
+| `4`               | `$`     | Dollar                   |
+| `5`               | `%`     | Percent                  |
+| `6`               | `^`     | Caret                    |
+| `7`               | `&`     | Ampersand                |
+| `8`               | `*`     | Star                     |
+| `9`               | `(`     | Left Round Bracket       |
+| `0`               | `)`     | Right Round Bracket      |
+| `-` Minus         | `_`     | Hyphen                   |
+| `=` Equal         | `+`     | Plus                     |
+| `[` Left Bracket  | `(`     | Left Round Bracket `⇧9`  |
+| `]` Right Bracket | `)`     | Right Round Bracket `⇧0` |
+| `;` Semicolon     | `!`     | Exclamation              |
+| `'` Single Quote  | `=`     | EqualSign                |
+| `⌘;` Semicolon    | `!`     | Colon                    |
+| `⌘'` Single Quote | `=`     | EqualSign                |
 
 ### Misc
 
-| Origin                 | Maps to             | Comment                                        |
-| ---------------------- | ------------------- | ---------------------------------------------- |
-| `⎋` Escape             | `⇪`  CapsLock       | Bug: Difficult to turn capslock off after emit |
-| `~` BackQuote          | `⌃⇧⌘4`              | macOS Area Screenshot to Clipboard             |
-| `⌘~` Command+BackQuote | `⌃⇧4`               | macOS Area Screenshot to Desktop File          |
-| `⌫` Backspace          | `⌘⌫`                | macOS Delete File                              |
-| `/` Slash              | `⌘/` Command+Slash  | Comment/Uncomment in many IDE                  |
-| `\` Backslash          | `⌘/` Command+Slash  | Comment/Uncomment in many IDE                  |
-| `␢` Spacebar           | `⌃␢`  Ctrl+Spacebar | Switch Input Source                            |
+| Origin                                                             | Maps to            | Comment                                        |
+| ------------------------------------------------------------------ | ------------------ | ---------------------------------------------- |
+| `⎋` Escape                                                         | `⇪` CapsLock       | Bug: Difficult to turn capslock off after emit |
+| `~` BackQuote                                                      | `⌃⇧⌘4`             | macOS Area Screenshot to Clipboard             |
+| `⌘~` Command+BackQuote                                             | `⌃⇧4`              | macOS Area Screenshot to Desktop File          |
+| `⌫` Backspace                                                      | `⌘⌫`               | macOS Delete File                              |
+| `/` Slash                                                          | `⌘/` Command+Slash | Comment/Uncomment in many IDE                  |
+| `\` Backslash | `⌘/` Command+Slash | Comment/Uncomment in many IDE |
+| `␢` Spacebar                                                       | `⌃␢` Ctrl+Spacebar | Switch Input Source                            |

@@ -150,13 +150,14 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `⌘E`   | Open Finder             | Open File Browser                               |
 | `R`    | Open iTerm2             | Great terminal for osx (`Run`)                  |
 | `⌘R`   | Open Preview            | Switch to opened picture, pdf, etc...           |
-| `T`    | Open Visual Studio Code | Text Editor: Visual Studio Code                 |
+| `T`    | Open iTunes             | iTunes Music App                                |
 | `⌘T`   | Open Typora             | Text Editor: Typora , a great WYSIWYG md editor |
 | `⌘D`   | Open Dictionary         | Find words                                      |
 | `⌘F`   | Open Dash               | Find API Document                               |
 | `F`    | Open Alfred             | Leaves to `⌃⌥⇧⌘F`                               |
 | `⌘D`   | Open Dictionary         | Find words                                      |
-| `G`    | Open Intellij IDEA      | Open IDE                                        |
+| `⌘C`   | Open Calendar           | Calendar                                        |
+| `G`    | Open Visual Studio Code | Text Editor: Visual Studio Code                 |
 | `⌘G`   | Open Chrome             | Google Chrome                                   |
 
 ### Functional

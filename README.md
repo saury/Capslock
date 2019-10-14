@@ -148,9 +148,9 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | ------ | ----------------------- | ----------------------------------------------- |
 | `E`    | Open Safari             | Open Web Browser                                |
 | `⌘E`   | Open Finder             | Open File Browser                               |
-| `R`    | Open iTerm2             | Great terminal for osx (`Run`)                  |
-| `⌘R`   | Open Preview            | Switch to opened picture, pdf, etc...           |
-| `T`    | Open iTunes             | iTunes Music App                                |
+| `R`    | Open Reeder             | RSS Reader                                      |
+| `⌘R`   | Open Reminders          | Reminders                                       |
+| `T`    | Open Music              | Music App                                       |
 | `⌘T`   | Open Typora             | Text Editor: Typora , a great WYSIWYG md editor |
 | `⌘D`   | Open Dictionary         | Find words                                      |
 | `⌘F`   | Open Dash               | Find API Document                               |

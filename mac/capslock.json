@@ -1236,7 +1236,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Preview'"
+              "shell_command": "open -a 'Reminders'"
             }
           ],
           "type": "basic"
@@ -1255,7 +1255,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'iTerm'"
+              "shell_command": "open -a 'Reeder'"
             }
           ],
           "type": "basic"
@@ -1294,7 +1294,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'iTunes.app'"
+              "shell_command": "open -a 'Music.app'"
             }
           ],
           "type": "basic"

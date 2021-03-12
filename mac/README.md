@@ -152,7 +152,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `⌘D`   | Open Dictionary         | Find words                                      |
 | `⌘C`   | Open Calendar           | Calendar                                        |
 | `G`    | Open Visual Studio Code | Text Editor: Visual Studio Code                 |
-| `⌘G`   | Open Chrome             | Google Chrome                                   |
+| `⌘G`   | Open Edge               | Microsoft Edge                                  |
 
 ### Functional
 
@@ -214,12 +214,12 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 ### Misc
 
-| Origin                                                             | Maps to            | Comment                                        |
-| ------------------------------------------------------------------ | ------------------ | ---------------------------------------------- |
-| `⎋` Escape                                                         | `⇪` CapsLock       | Bug: Difficult to turn capslock off after emit |
-| `~` BackQuote                                                      | `⌃⇧⌘4`             | macOS Area Screenshot to Clipboard             |
-| `⌘~` Command+BackQuote                                             | `⌃⇧4`              | macOS Area Screenshot to Desktop File          |
-| `⌫` Backspace                                                      | `⌘⌫`               | macOS Delete File                              |
-| `/` Slash                                                          | `⌘/` Command+Slash | Comment/Uncomment in many IDE                  |
-| `\` Backslash | `⌘/` Command+Slash | Comment/Uncomment in many IDE |
-| `␢` Spacebar                                                       | `⌃␢` Ctrl+Spacebar | Switch Input Source                            |
+| Origin                 | Maps to            | Comment                                        |
+| ---------------------- | ------------------ | ---------------------------------------------- |
+| `⎋` Escape             | `⇪` CapsLock       | Bug: Difficult to turn capslock off after emit |
+| `~` BackQuote          | `⌃⇧⌘4`             | macOS Area Screenshot to Clipboard             |
+| `⌘~` Command+BackQuote | `⌃⇧4`              | macOS Area Screenshot to Desktop File          |
+| `⌫` Backspace          | `⌘⌫`               | macOS Delete File                              |
+| `/` Slash              | `⌘/` Command+Slash | Comment/Uncomment in many IDE                  |
+| `\` Backslash          | `⌘/` Command+Slash | Comment/Uncomment in many IDE                  |
+| `␢` Spacebar           | `⌃␢` Ctrl+Spacebar | Switch Input Source                            |
